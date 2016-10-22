@@ -16,8 +16,9 @@ Install theme and renderers:
 
 ```shell
 $ git clone https://github.com/tufu9441/maupassant-hexo.git themes/maupassant
-$ npm install hexo-renderer-jade --save
-$ npm install hexo-renderer-sass --save
+$ npm install -g cnpm --registry=https://registry.npm.taobao.or
+$ cnpm install hexo-renderer-jade --save
+$ cnpm install hexo-renderer-sass --save
 ```
 
 Then change your `theme` setting in `_config.yml` to `maupassant`.
@@ -142,3 +143,5 @@ Thank [JamesPan](http://blog.jamespan.me) for his help to improve this theme
 + Farbox：https://github.com/pagecho/Maupassant-farbox/
 + Wordpress：https://github.com/iMuFeng/maupassant/
 + Ghost: https://github.com/LjxPrime/maupassant/
+
+
